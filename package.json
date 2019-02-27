@@ -1,0 +1,8 @@
+{
+  "name": "my_resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/orivelton/my-resume.git",
+  "author": "Orivelton Cesar - orivelton.com",
+  "license": "MIT"
+}
