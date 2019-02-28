@@ -1,5 +1,13 @@
-$body-color: blue;
+@import url('https://fonts.googleapis.com/css?family=Nunito:300i,400,400i,700,800i,900');
 
-body {
-  color: $body-color;
-}
+@import 'utils/variables';
+@import 'utils/helpers/em';
+
+@import 'utils/helpers/box';
+@import 'sections/home';
+
+
+
+* { border: 0; padding: 0; box-sizing: border-box;}
+
+body { font-family: 'Nunito', sans-serif;}
