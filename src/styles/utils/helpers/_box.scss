@@ -1,0 +1,8 @@
+.box {
+  &-left,  &-right {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, [col] 50% );
+    grid-template-rows: repeat(1, [row] auto );
+  } 
+}
