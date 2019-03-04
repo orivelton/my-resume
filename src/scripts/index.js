@@ -1,16 +1,2 @@
-import '../styles/main.scss';
-
-class Rectangle {
-  constructor(height, width) {
-    this.height = height;
-    this.width = width;
-  }
-  // Getter
-  get area() {
-    return this.calcArea();
-  }
-  // Method
-  calcArea() {
-    return this.height * this.width;
-  }
-}
+import '../assets/scss/main.scss';
+import avatar from '../assets/images/avatar.png';

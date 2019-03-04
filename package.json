@@ -1,10 +1,10 @@
 {
   "name": "my-resume",
-  "version": "1.0.0",
-  "description": "A light foundation for your next frontend project based on webpack.",
+  "version": "0.0.1",
+  "description": "orivelton.com",
   "scripts": {
-    "build": "webpack --config webpack/webpack.config.prod.js  --colors",
-    "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
+    "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js",
+    "build": "webpack --config webpack/webpack.config.prod.js  --colors"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
