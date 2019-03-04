@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: em(1) solid $ghost;
+  margin: em(20) 0;
+  width: 30%;
+  border-radius: em(4);
+  overflow: hidden;
+  width: 31%;
+
+  &__title{
+    width: 100%;
+    background: $black;
+    color: $white;
+    padding: em(5) em(10);
+  }
+
+  &__group {
+    padding: em(10) 0;
+  }
+
+  &__item {
+    padding: em(5) em(10);
+    display: flex;
+    justify-content: space-around;
+  }
+}

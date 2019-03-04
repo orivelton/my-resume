@@ -11,4 +11,20 @@
   border-radius: em(4);
   padding: em(20);
   margin: em(20) auto;
+
+  &__title {
+    display: flex;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: em(18);
+    font-weight: 900;
+    text-shadow: -1px -2px 0 rgba(150, 150, 150, 0.42);
+  }
+  &--skills {
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;;
+    flex-basis: auto;
+    align-items: stretch;
+  }
 }
