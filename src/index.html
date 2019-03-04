@@ -4,20 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Orivelton Cesar - Front End Developer</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
   <section class="header">
     <img src="./src/assets/images/orivelton.png" alt="Photo Orivelton Cesar" title="Orivelton Cesar" class="header__image">
-    <h1>Orivelton Cesar</h1>
+    <h1 class="header__name">Orivelton Cesar</h1>
     <h2>Front End Developer</h2>
     <address>
-      <p>orivelton10@gmail.com</p>
-      <p>São Paulo - Brazil</p>
+      <p>
+        <i class="fas fa-envelope"></i>
+        orivelton10@gmail.com
+      </p>
+      <p>
+        <i class="fas fa-map-marker-alt"></i>
+        São Paulo - Brazil
+      </p>
+      <p>
+        <span class="fab fa-linkedin"></span>
+        <span class="fab fa-github-square"></span>
+        <span class="fab fa-twitter-square"></span>
+      </p>
     </address>
   </section>
 
   <section class="section">
-    <h3>About me</h3>
+    
+    <h3 class="section__title"><i class="fas fa-user-tie"></i>About me</h3>
     <p>
       Hi, I'm Orivelton Cesar I work as a web developer with a focus on Front End.
       I already ventured into the logistics and administrative area but found myself even within the codes.
@@ -26,82 +39,97 @@
   </section>
 
   <section class="section section--skills">
-    <h3>Skills</h3>
-    <div class="section__skils">
-      <strong>Core</strong>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>Javascript</li>
-        <li>ES6, ES7</li>
-        <li>Typescript</li>
-        <li>Accessibility</li>
+    <h3 class="section__title"><i class="fas fa-code"></i> Skills</h3>
+    <div class="card">
+      <strong class="card__title">Core</strong>
+      <ul class="card__group">
+        <li class="card__item">HTML5 <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">CSS3 <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">Javascript <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">ES6, ES7 <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i></li>
+        <li class="card__item">Typescript <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i></li>
+        <li class="card__item">Accessibility <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
       </ul>
     </div>
 
-    <div class="section__skils">
-      <strong>Frameworks</strong>
-      <ul>
-        <li>Angular 2+</li>
-        <li>React JS</li>
-        <li>Vue JS</li>
-        <li>Polymer</li>
+    <div class="card">
+      <strong class="card__title">Frameworks</strong>
+      <ul class="card__group">
+        <li class="card__item">Angular 2+ <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">React JS <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i></li>
+        <li class="card__item">Vue JS <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i></li>
+        <li class="card__item">Polymer <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i></li>
       </ul>
     </div>
 
-    <div class="section__skils">
-      <strong>Toolkit for automating</strong>
-      <ul>
-        <li>Gulp</li>
-        <li>Grunt</li>
+    <div class="card">
+      <strong class="card__title">Toolkit for automating</strong>
+      <ul class="card__group">
+        <li class="card__item">Gulp <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">Grunt <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
       </ul>
     </div>
 
-    <div class="section__skils">
-      <strong>Module bundler</strong>
-      <ul>
-        <li>Webpack</li>
+    <div class="card">
+      <strong class="card__title">Module bundler</strong>
+      <ul class="card__group">
+        <li class="card__item">Webpack <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i></li>
       </ul>
     </div>
     
-    <div class="section__skils">
-      <strong>Testing JavaScript</strong>
-      <ul>
-        <li>Jasmine</li>
-        <li>Karma</li>
-        <li>Jest</li>
-        <li>Enzyme</li>
+    <div class="card">
+      <strong class="card__title">Testing JavaScript</strong>
+      <ul class="card__group">
+        <li class="card__item">Jasmine <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">Karma <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">Jest <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i></li>
+        <li class="card__item">Enzyme <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i></li>
       </ul>
     </div>
     
-    <div class="section__skils">
-      <strong>Web Components</strong>
-      <ul>
-        <li>Stencil Js</li>
-        <li>Polymer</li>
-      </ul>
-    </div>
-
-    <div class="section__skils">
-      <strong>Tolls</strong>
-      <ul>
-        <li>Jenkins</li>
-        <li>Travis CI</li>
-        <li>GitLab</li>
-        <li>Bitbucket</li>
-        <li>Jira</li>
-      </ul>
-    </div>
-
-    <div class="section__skils">
-      <strong>Methodology</strong>
-      <ul>
-        <li>Scrum</li>
-        <li>Kanban</li>
+    <div class="card">
+      <strong class="card__title">Web Components</strong>
+      <ul class="card__group">
+        <li class="card__item">Stencil Js <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">Polymer <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
       </ul>
     </div>
     
-    <strong></strong>
+    <div class="card">
+      <strong class="card__title">Mobile</strong>
+      <ul class="card__group">
+        <li class="card__item">Ionic <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">Cordova <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <strong class="card__title">Tolls</strong>
+      <ul class="card__group">
+        <li class="card__item">Jenkins <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">Travis CI <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i></li>
+        <li class="card__item">GitLab <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">Bitbucket <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">Jira <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <strong class="card__title">Methodology</strong>
+      <ul class="card__group">
+        <li class="card__item">Scrum <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+        <li class="card__item">Kanban <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></li>
+      </ul>
+    </div>
   </section>
+
+  <section class="section">
+      <h3 class="section__title"><i class="fas fa-user-tie"></i> Experience</h3>
+      <p>
+        Hi, I'm Orivelton Cesar I work as a web developer with a focus on Front End.
+        I already ventured into the logistics and administrative area but found myself even within the codes.
+        I have worked on great projects, I like open source projects and I love learning new things.
+      </p>
+    </section>
 </body>
 </html>
