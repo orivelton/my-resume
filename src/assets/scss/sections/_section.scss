@@ -1,0 +1,14 @@
+.section {
+  align-items: left;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  max-width: em(1100);
+  overflow: hidden;
+  border: em(1) solid $ghost;
+  border-left: solid em(10) $black;
+  border-radius: em(4);
+  padding: em(20);
+  margin: em(20) auto;
+
+}

@@ -1,3 +1,4 @@
-* { border: 0; padding: 0; box-sizing: border-box; margin: 0; }
+@import url('https://fonts.googleapis.com/css?family=Saira:200,400,500,600,700');
 
-body { font-family: 'Nunito', sans-serif; }
+* { border: 0; padding: 0; box-sizing: border-box; margin: 0; }
+body { font-family: 'Saira', sans-serif; display: flex; justify-content: center; flex-flow: column nowrap;}
