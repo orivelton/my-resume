@@ -1,6 +1,7 @@
+
 .section {
-  align-items: left;
   display: flex;
+  align-items: left;
   flex-flow: column nowrap;
   width: 100%;
   max-width: em(1100);
@@ -10,5 +11,4 @@
   border-radius: em(4);
   padding: em(20);
   margin: em(20) auto;
-
 }
